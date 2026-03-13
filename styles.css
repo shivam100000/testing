@@ -1,0 +1,116 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    background-image:url(img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    margin-right:-5px;
+    margin-left: -5px;
+}
+
+form{
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius:3%;
+    border-color:rgba(200, 200, 200, 0.5);
+    backdrop-filter: blur(15px);
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height:3;
+    width:300px;
+    height:400px;
+    box-shadow: -1px -1px 40px purple;
+    transition: transform 0.3s ease-in-out;
+}
+
+form h2{
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.text{
+    background: none;
+    border:1px solid;
+    border-color: rgba(255, 255, 255, 0.401);
+    border-radius:20px;
+    padding:10px;
+    width:275px;
+    align-items: center;
+}
+
+.text::placeholder{
+    color:rgba(255, 255, 255, 0.572);
+    font-size: 15px;
+}
+
+#username{
+    transform:translateY(-20px);
+}
+
+#password{
+    transform:translateY(-10px);
+}
+
+#remember{
+    color:white;
+    text-align: left;
+}
+
+#remember input[type="checkbox"]{
+    transform: scale(1.5);
+}
+
+#forgot{
+    text-decoration: none;
+    color: white;
+    transform:translate(80px,-48px);
+    font-weight: bold;
+}
+
+#login{
+    width: 300px;
+    height: 30px;
+    transform: translateY(-20px);
+    border-radius: 20px;
+    border:0px solid;
+    font-weight: bold;
+}
+
+#noacc{
+    color:white;
+}
+
+#register{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.formfooter{
+    transform: translateY(-20px);
+}
+
+#forgot:hover{
+    text-decoration: underline;
+}
+
+#register:hover{
+    text-decoration: underline;
+}
+
+form:hover{
+    transform:scale(1.2);
+}
